@@ -8,6 +8,78 @@ body{
     min-height: 100vh;
 }
 
+header{
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+}
+
+/* .mainHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1500px;
+    height: 40px;
+    margin:20px 250px;
+} */
+
+/* .mainHead button{
+    margin: 5px;
+    padding: 10px 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+} */
+
+.headText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;

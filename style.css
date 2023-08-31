@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
 }
 
@@ -25,31 +24,14 @@ header {
     display: flex;
     flex-direction: column;
     padding: 150px;
+    background-color: var(--VeryPaleCyan);
 }
-
-/* .mainHead{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 1500px;
-    height: 40px;
-    margin:20px 250px;
-} */
-
-/* .mainHead button{
-    margin: 5px;
-    padding: 10px 10px;
-    width: 150px;
-    border-radius: 20px;
-    border: none;
-} */
 
 .headText {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 
 :root{
     --VeryPaleCyan: hsl(193, 100%, 96%);

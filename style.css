@@ -1,9 +1,14 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     line-height: 1.5;
     min-height: 100vh;
     display: flex;
@@ -12,7 +17,7 @@ body{
     flex-direction: column;
 }
 
-header{
+header {
     background-image: url(./images/bg-hero-desktop.svg);
     background-position: center;
     background-size: cover;
@@ -39,12 +44,19 @@ header{
     border: none;
 } */
 
-.headText{
+.headText {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+
+:root{
+    --VeryPaleCyan: hsl(193, 100%, 96%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);
+    --Pink: hsl(322, 100%, 66%);
+}
 
 
 
